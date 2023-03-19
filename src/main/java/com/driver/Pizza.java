@@ -5,18 +5,18 @@ public class Pizza {
     /*the price here will be printed on bill*/
     private int price;
     //all variable prices
-    int baseprice;
-    int ExtraCheeseprice;
-    int ExtraToppingsprice;
-    int papaerbagprice;
+    public int baseprice;
+    public int ExtraCheeseprice;
+    public int ExtraToppingsprice;
+    public int papaerbagprice;
 
     private Boolean isVeg;
 
     private String bill;
-    private boolean ischeeseadded;
-    private boolean istoppingdadded;
-    private boolean istakeawayadded;
-    private boolean isgetbill;
+    boolean ischeeseadded;
+    boolean istoppingdadded;
+    boolean istakeawayadded;
+    boolean isgetbill;
 
 
 
